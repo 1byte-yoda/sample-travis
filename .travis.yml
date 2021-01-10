@@ -2,12 +2,6 @@ sudo: required
 
 language: python
 
-before_script:
-  - python sample.py
-
 script:
   - python sample.py
-  - python sample.py
-
-after_script:
   - python sample.py
